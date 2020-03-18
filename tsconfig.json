@@ -1,13 +1,21 @@
 {
   "compilerOptions": {
+    "strict": true,
     "target": "es6",
     "module": "commonjs",
-    "outDir": "dist"
+    "lib": ["es2017", "es7", "es6", "dom"],
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./ZedJS",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": true
   },
-  "include": [
-    "ZedJS/src/**/*.ts"
-  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist",
+    "test",
+    "debug.ts"
   ]
 }
