@@ -1,6 +1,6 @@
-import { RateLimitDto } from '../rate/rate'
+import { RateDto } from '../rate/rate.dto'
 
 export class ApiResponseDTO<T> {
-  readonly rateLimits?: RateLimitDto
+  readonly rateLimits?: RateDto
   readonly response: T
 }
