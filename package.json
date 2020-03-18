@@ -16,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/jlenon7/ZedJS/issues"
   },
-  "homepage": "https://github.com/jlenon7/ZedJS#readme"
+  "homepage": "https://github.com/jlenon7/ZedJS#readme",
+  "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.33",
+    "@types/node": "^6.0.46",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.1",
+    "typescript": "^2.0.6"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "express": "^4.14.0"
+  }
 }
