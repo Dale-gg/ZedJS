@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="First lib" title="#delicinhas" src=".github/node-logo.png" width="200px" />
+    <img alt="ZedJS" title="#delicinhas" src=".github/zedjs-logo.png" width="200px" />
 </h1>
 
 <h4 align="center">
