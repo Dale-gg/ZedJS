@@ -1,7 +1,7 @@
 /**
  * Rate Limiting
  */
-export class RateLimitDto {
+export class RateDto {
     /**
      * The rate limit type, either method, service, or application. method indicates you have exceeded the individual limits for that method. application indicates you have exceeded the total rate limit for your application. service is returned if the service is rate limiting it's connections from the Riot API layer, regardless of your API key's application or method rate limits.
      * Included in any 429 response where the rate limit was enforced by the API infrastructure. Not included in any 429 response where the rate limit was enforced by the underlying service to which the request was proxied.
