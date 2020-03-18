@@ -1,6 +1,6 @@
-import * as constants from './classes'
-import * as dto from './models-dto'
+import * as enums from './classes/enums'
+import * as dto from './classes/dto'
 
 export * from './apis'
-export const Constants = constants
+export const Enums = enums
 export const Dto = dto
