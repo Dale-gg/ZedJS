@@ -1,9 +1,9 @@
 {
-  "name": "zedjs",
+  "name": "zed",
   "version": "1.0.0",
   "description": "Riot API Library for NodeJS",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/ZedJS.js",
+  "types": "dist/ZedJS.d.ts",
   "scripts": {
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "tslint --project tsconfig.json --fix",

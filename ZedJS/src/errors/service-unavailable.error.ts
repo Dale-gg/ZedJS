@@ -1,7 +1,7 @@
 import * as _ from 'lodash'
 import { IErrors } from '.'
 import { SERVICE_UNAVAILABLE } from 'http-status-codes'
-import { RateLimitDto } from '../models-dto/rate-limit/rate-limit.dto'
+import { RateDto } from '../classes/dto/rate/rate.dto'
 
 const message = 'Riot games api unavailable check: https://developer.riotgames.com/api-status/'
 
@@ -13,7 +13,7 @@ export class ServiceUnavailable extends Error implements IErrors {
   readonly name = 'RiotUnavailable'
 
   constructor (
-    public readonly rateLimits: RateLimitDto,
+    public readonly rateLimits: RateDto,
     public readonly error: Error
   ) {
     super(message)
