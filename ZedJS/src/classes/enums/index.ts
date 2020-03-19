@@ -1,4 +1,4 @@
-export * from './account'
+export * from './summoner.find'
 export * from './region'
 export * from './tier'
 export * from './queues'
