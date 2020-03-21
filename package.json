@@ -1,6 +1,6 @@
 {
   "name": "@jlenon7/zedjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Riot API Library for NodeJS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -42,10 +42,8 @@
     "@types/dotenv": "^6.1.1",
     "@types/http-status-codes": "^1.2.0",
     "@types/lodash": "^4.14.138",
-    "@types/mocha": "^5.2.7",
     "@types/promise-queue": "^2.2.0",
     "@types/request-promise": "^4.1.44",
-    "@types/sinon": "^7.0.13",
     "@typescript-eslint/eslint-plugin": "^2.1.0",
     "@typescript-eslint/parser": "^2.1.0",
     "chai": "^4.2.0",
