@@ -43,6 +43,35 @@ Fetch all the Riot API with ZedJS lib!
 
 ## ⏭ Tutorial
 
+League of Legends:
+
+```
+import { LolApi, Constants } from '@jlenon7/zedjs'
+
+const api = new LolApi()
+
+export async function summonerByNameExample () {
+  return await api.Lol.Summoner.getByName('iLenon7', Constants.Regions.BRAZIL)
+}
+```
+
+Teamfight Tatics
+
+```
+import { TftApi, Constants } from '@jlenon7/zedjs'
+
+const api = new TftApi()
+
+export async function matchListTft () {
+  const {
+    response: {
+      puuid
+    }
+  } = api.Summoner.getByName('iLenon7', Constants.Regions.BRAZIL)
+  return api.Match.list(puuid, Constants.TftRegions.TftRegions.AMERICAS)
+}
+```
+
 ---
 
 ## 🤔 How to contribute
