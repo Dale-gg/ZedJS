@@ -6,7 +6,7 @@
     "lib": ["es2017", "es7", "es6", "dom"],
     "declaration": true,
     "outDir": "./dist",
-    "rootDir": "./ZedJS/src",
+    "rootDir": "./src",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "strictPropertyInitialization": false,
@@ -16,6 +16,8 @@
     "node_modules",
     "dist",
     "test",
+    "example",
+    "runExamples.ts",
     "debug.ts"
   ]
 }

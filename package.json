@@ -1,26 +1,31 @@
 {
   "name": "@jlenon7/zedjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Riot API Library for NodeJS",
-  "main": "dist/ZedJS.js",
-  "types": "dist/ZedJS.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "tslint --project tsconfig.json --fix",
+    "test": "mocha -r ts-node/register test/**/**.test{.ts,.js}",
+    "test:request": "mocha -r ts-node/register test/request.test.js",
+    "test:base": "mocha -r ts-node/register test/base.test.js",
     "build": "tsc",
+    "example": "ts-node runExamples",
     "prepublishOnly": "npm run build"
   },
   "engines": {
     "node": ">=8.6.0"
   },
   "keywords": [
-    "riot-api",
-    "nodejs",
-    "lib",
-    "zed",
-    "typescript",
-    "league-of-legends",
-    "riot-games"
+    "riot",
+    "lol",
+    "api",
+    "wrap",
+    "riot games",
+    "league of legends",
+    "tft",
+    "teamfight tactics"
   ],
   "repository": {
     "type": "git",
@@ -33,7 +38,7 @@
   },
   "homepage": "https://github.com/jlenon7/ZedJS",
   "bugs": {
-    "url": "https://github.com/jlenon7/ZedJS/issues"
+    "url": "https://github.com/jlenon7/issues"
   },
   "license": "MIT",
   "devDependencies": {
