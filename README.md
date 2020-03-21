@@ -45,7 +45,7 @@ Fetch all the Riot API with ZedJS lib!
 
 League of Legends:
 
-```
+```js
 import { LolApi, Constants } from '@jlenon7/zedjs'
 
 const api = new LolApi()
@@ -57,7 +57,7 @@ export async function summonerByNameExample () {
 
 Teamfight Tatics
 
-```
+```js
 import { TftApi, Constants } from '@jlenon7/zedjs'
 
 const api = new TftApi()
