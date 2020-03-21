@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="First lib" title="#delicinhas" src=".github/node-logo.png" width="200px" />
+    <img alt="First lib" title="#delicinhas" src=".github/zedjs-logo.png" width="200px" />
 </h1>
 
 <h4 align="center">
@@ -60,4 +60,4 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) for more de
 
 ---
 
-Mad with 🖤 by [jlenon7](https://github.com/jlenon7) :wave:
+Made with 🖤 by [jlenon7](https://github.com/jlenon7) :wave:
