@@ -7,11 +7,7 @@
   "scripts": {
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "tslint --project tsconfig.json --fix",
-    "test": "mocha -r ts-node/register test/**/**.test{.ts,.js}",
-    "test:request": "mocha -r ts-node/register test/request.test.js",
-    "test:base": "mocha -r ts-node/register test/base.test.js",
     "build": "tsc",
-    "example": "ts-node runExamples",
     "prepublishOnly": "npm run build"
   },
   "engines": {
