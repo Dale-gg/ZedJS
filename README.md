@@ -43,6 +43,8 @@ Fetch all the Riot API with ZedJS lib!
 
 ## ⏭ Tutorial
 
+### RIOT_API_KEY=YOUR_API_KEY_ON_.ENV
+
 League of Legends:
 
 ```js
