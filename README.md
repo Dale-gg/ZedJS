@@ -55,7 +55,7 @@ export async function summonerByNameExample () {
 }
 ```
 
-Teamfight Tatics
+Teamfight Tatics:
 
 ```js
 import { TftApi, Constants } from '@jlenon7/zedjs'
