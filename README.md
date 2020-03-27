@@ -2,9 +2,9 @@
     <img alt="First lib" title="#delicinhas" src=".github/zedjs-logo.png" width="200px" />
 </h1>
 
-<h2 align="center">
+<h3align="center">
   ⚔ ZedJS 👾
-</h2>
+</h3
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jlenon7/ZedJS">
 
