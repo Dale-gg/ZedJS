@@ -5,6 +5,9 @@
 <h4 align="center">
   ⚔ ZedJS 👾
 </h4>
+<h3 align="center">
+    <strong>npm install @jlenon7/ZedJS / yarn add @jlenon7/ZedJS</strong>
+</h3>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jlenon7/ZedJS">
 
@@ -42,6 +45,12 @@ This project was developed with the following technologies:
 Fetch all the Riot API with ZedJS lib!
 
 ## ⏭ Tutorial
+
+### Install 
+
+```
+npm install @jlenon7/ZedJS / yarn add @jlenon7/ZedJS
+```
 
 ### .env
 ```js
