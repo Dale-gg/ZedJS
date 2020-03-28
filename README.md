@@ -92,9 +92,9 @@ You can find the **documentation** here;
 
 - [DOCUMENTATION](https://github.com/jlenon7/ZedJS/wiki/%F0%9F%93%9D-ZedJS-Docs)
 
-And more **examples** on how to use this lib here:
+And more **example** on how to use this lib here:
 
-- [EXAMPLES](https://github.com/jlenon7/ZedJS/tree/master/src/examples)
+- [EXAMPLES](https://github.com/jlenon7/ZedJS/tree/master/example)
   
 ---
 
