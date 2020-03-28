@@ -68,6 +68,8 @@ export async function championRotationExample () {
 }
 ```
 
+---
+
 ## ChampionsScore
 
 ```js
