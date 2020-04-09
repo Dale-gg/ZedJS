@@ -5,20 +5,28 @@
 <h3 align="center">
   ⚔ ZedJS 👾
 </h3>
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jlenon7/ZedJS">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jlenon7/ZedJS">
+
+<p align="center">
+    <img alt="GitHub language count" src="https://img.shields.io/badge/Typescript-294E80.svg?style=for-the-badge&logo=typescript">
+    <a href="https://npmjs.org/package/@jlenon7/ZedJS">
+      <img alt="ZedJS" src="https://img.shields.io/npm/v/jlenon7/ZedJS.svg?style=for-the-badge&logo=npm">
+    </a>
+</p>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jlenon7/ZedJS?style=for-the-badge&logo=appveyor">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jlenon7/ZedJS?style=for-the-badge&logo=appveyor">
 
   <a href="https://github.com/jlenon7/ZedJS/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jlenon7/ZedJS">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jlenon7/ZedJS?style=for-the-badge&logo=appveyor">
   </a>
 
   <a href="https://github.com/jlenon7/ZedJS/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/jlenon7/ZedJS">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/jlenon7/ZedJS?style=for-the-badge&logo=appveyor">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge&logo=appveyor">
 </p>
 
 <p align="center">
