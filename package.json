@@ -4,11 +4,15 @@
   "description": "Riot API Library for NodeJS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "tslint --project tsconfig.json --fix",
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "publish": "npm publish --access public",
+    "prepublishOnly": "yarn build"
   },
   "engines": {
     "node": ">=8.6.0"
