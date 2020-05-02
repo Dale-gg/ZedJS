@@ -1,6 +1,6 @@
 {
   "name": "@jlenon7/zedjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Riot API Library for NodeJS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,7 @@
     "lint:fix": "tslint --project tsconfig.json --fix",
     "build": "tsc",
     "publish": "npm publish --access public",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "npm run build"
   },
   "engines": {
     "node": ">=8.6.0"
