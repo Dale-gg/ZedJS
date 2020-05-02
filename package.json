@@ -1,5 +1,5 @@
 {
-  "name": "@jlenon7/zedjs",
+  "name": "@dale-gg/zedjs",
   "version": "1.0.3",
   "description": "Riot API Library for NodeJS",
   "main": "dist/index.js",
