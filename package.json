@@ -47,16 +47,14 @@
     "@types/http-status-codes": "^1.2.0",
     "@types/lodash": "^4.14.138",
     "@types/promise-queue": "^2.2.0",
+    "@types/request": "^2.48.4",
     "@types/request-promise": "^4.1.44",
     "@typescript-eslint/eslint-plugin": "^2.1.0",
     "@typescript-eslint/parser": "^2.1.0",
-    "chai": "^4.2.0",
-    "mocha": "^6.2.0",
-    "sinon": "^7.4.2",
     "ts-node": "^8.3.0",
     "tslint": "^5.19.0",
     "tslint-config-standard": "^8.0.1",
-    "typescript": "^3.6.2"
+    "typescript": "^3.8.3"
   },
   "dependencies": {
     "camelcasejs": "^1.0.3",
