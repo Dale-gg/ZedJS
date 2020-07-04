@@ -3,7 +3,7 @@ import { DataDragonEnum } from '../../../constants/dataDragon'
 import { RealmServers } from '../../../constants/realmServers'
 import { RealmDTO, ChampionsDataDragon, QueuesDataDragonDTO, GameModesDataDragonDTO } from '../../../models-dto'
 import { Champions, getChampionNameCapital } from '../../../constants/champions'
-import { ChampionsDataDragonDetailsSolo } from '../../../models-dto/data-dragon/Champions.datadragon.dto'
+import { ChampionsDataDragonDetailsSolo } from '../../../models-dto/data-dragon/champions.datadragon.dto'
 import { MapsDataDragonDTO } from '../../../models-dto/data-dragon/maps.datadragon.dto'
 import { GameTypesDataDragonDTO } from '../../../models-dto/data-dragon/game-types.datadragon.dto'
 import { RunesReforgedDTO } from '../../../models-dto/data-dragon/runes-reforged.dto'
@@ -52,7 +52,7 @@ export class DataDragonService {
   }
 
   async getChampion (): Promise<ChampionsDataDragon>
-  async getChampion (champ: Champions): Promise<ChampionsDataDragonDetailsSolo>
+  async getChampion (champ: Champions | number): Promise<ChampionsDataDragonDetailsSolo>
   async getChampion (champ?: Champions): Promise<ChampionsDataDragon | ChampionsDataDragonDetailsSolo> {
     const version = (await this.getVersions())[0]
     let champName = ''

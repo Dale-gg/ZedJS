@@ -1,7 +1,7 @@
 import { MatchListingDto } from '../../../models-dto/matches/match-listing/match-listing.dto'
 import { Regions } from '../../../constants'
 import { endpointsV4 } from '../../../endpoints/endpoints'
-import { MatchDto } from '../../../models-dto/matches/match/Match.dto'
+import { MatchDto } from '../../../models-dto/matches/match/match.dto'
 import { MatchTimelineDto } from '../../../models-dto/matches/match-timeline/match-timeline.dto'
 import { MatchQueryDTO } from '../../../models-dto/matches/query/match-query.dto'
 import { NOT_FOUND } from 'http-status-codes'
