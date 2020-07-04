@@ -1,6 +1,6 @@
 {
   "name": "@dale-gg/zedjs",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Riot API Library for NodeJS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
