@@ -6,16 +6,16 @@
   ⚔ ZedJS 👾
 </h3>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jlenon7/ZedJS">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Dale-gg/ZedJS">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jlenon7/ZedJS">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Dale-gg/ZedJS">
 
-  <a href="https://github.com/jlenon7/ZedJS/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jlenon7/ZedJS">
+  <a href="https://github.com/Dale-gg/ZedJS/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Dale-gg/ZedJS">
   </a>
 
-  <a href="https://github.com/jlenon7/ZedJS/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/jlenon7/ZedJS">
+  <a href="https://github.com/Dale-gg/ZedJS/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Dale-gg/ZedJS">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -44,13 +44,14 @@ Fetch all the Riot API with ZedJS lib!
 
 ## ⏭ Tutorial
 
-### Install 
+### Install
 
 ```js
-npm install @jlenon7/ZedJS / yarn add @jlenon7/ZedJS
+npm install @dale-gg/ZedJS / yarn add @dale-gg/ZedJS
 ```
 
 ### .env
+
 ```js
 RIOT_API_KEY=YOUR_API_KEY_ON_.ENV
 ```
@@ -58,7 +59,7 @@ RIOT_API_KEY=YOUR_API_KEY_ON_.ENV
 League of Legends:
 
 ```js
-import { LolApi, Constants } from '@jlenon7/zedjs'
+import { LolApi, Constants } from '@dale-gg/zedjs'
 
 const api = new LolApi()
 
@@ -70,7 +71,7 @@ export async function summonerByNameExample () {
 Teamfight Tatics:
 
 ```js
-import { TftApi, Constants } from '@jlenon7/zedjs'
+import { TftApi, Constants } from '@dale-gg/zedjs'
 
 const api = new TftApi()
 
@@ -90,11 +91,11 @@ export async function matchListTft () {
 
 You can find the **documentation** here;
 
-- [DOCUMENTATION](https://github.com/jlenon7/ZedJS/wiki/%F0%9F%93%9D-ZedJS-Docs)
+- [DOCUMENTATION](https://github.com/Dale-gg/ZedJS/wiki/%F0%9F%93%9D-ZedJS-Docs)
 
 And more **example** on how to use this lib here:
 
-- [EXAMPLES](https://github.com/jlenon7/ZedJS/tree/master/example)
+- [EXAMPLES](https://github.com/Dale-gg/ZedJS/tree/master/example)
   
 ---
 
@@ -113,4 +114,4 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) for more de
 
 ---
 
-Made with 🖤 by [jlenon7](https://github.com/jlenon7) :wave:
+Made with 🖤 by [Galakticos Team](https://github.com/orgs/Dale-gg/teams/galakticos-team) :wave:
