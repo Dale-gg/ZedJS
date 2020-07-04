@@ -1,9 +1,12 @@
 {
-  "name": "@jlenon7/zedjs",
-  "version": "1.0.9",
+  "name": "@dale-gg/zedjs",
+  "version": "1.1.0",
   "description": "Riot API Library for NodeJS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
+  },
   "scripts": {
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "tslint --project tsconfig.json --fix",
@@ -25,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlenon7/ZedJS"
+    "url": "https://github.com/Dale-gg/ZedJS"
   },
   "author": {
     "name": "João Lenon",
