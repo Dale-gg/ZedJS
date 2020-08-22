@@ -8,8 +8,7 @@
   "scripts": {
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "tslint --project tsconfig.json --fix",
-    "clean": "rm -r dist",
-    "build": "yarn clean && tsc",
+    "build": "tsc",
     "prepublishOnly": "yarn build"
   },
   "engines": {
