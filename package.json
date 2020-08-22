@@ -1,6 +1,6 @@
 {
   "name": "@dale-gg/zedjs",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Riot API Library for NodeJS",
   "publishConfig": { 
     "registry": "https://npm.pkg.github.com/" 
