@@ -5,18 +5,19 @@
     "module": "commonjs",
     "lib": ["es2017", "es7", "es6", "dom"],
     "declaration": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./src/",
+    "outDir": "build",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "strictPropertyInitialization": false,
     "sourceMap": false
   },
+  "include": ["src/**/*"],
   "exclude": [
     "node_modules",
     "test",
+    "dist",
+    "build",
     "example",
-    "runExamples.ts",
-    "debug.ts"
   ]
 }
