@@ -1,6 +1,6 @@
 {
   "name": "@dale-gg/zedjs",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Riot API Library for NodeJS",
   "publishConfig": { 
     "registry": "https://npm.pkg.github.com/" 
@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "tslint --project tsconfig.json --fix",
-    "clean": "del dist",
+    "clean": "rm -r dist",
     "build": "yarn clean && tsc",
     "prepublishOnly": "yarn build"
   },
