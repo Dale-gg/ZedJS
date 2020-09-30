@@ -1,6 +1,6 @@
 {
   "name": "@dale-gg/zedjs",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Riot API Library for NodeJS",
   "publishConfig": { 
     "registry": "https://npm.pkg.github.com/" 
@@ -61,5 +61,12 @@
     "promise-queue": "^2.2.5",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
-  }
+  },
+  "main": "build/",
+  "types": "build/",
+  "files": [
+    "build",
+    "build/index.d.ts",
+    "build/index.js"
+  ]
 }
