@@ -1,3 +1,5 @@
+# WE MOVED ZedJS
+
 <h1 align="center">
     <img alt="First lib" title="#delicinhas" src=".github/zedjs-logo.png" width="200px" />
 </h1>
@@ -106,11 +108,11 @@ And more **example** on how to use this lib here:
 - Commit your changes: `git commit -m 'feat: My new feature'`;
 - Push to your branch: `git push origin my-feature`.
 
-After the merge of your pull request is done, you can delete your branch.
+<https://github.com/Dale-gg/ZedJS>
 
-## 📝 License
+# Please, go to our other repo in our organization
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) for more details.
+<https://github.com/Dale-gg/ZedJS>
 
 ---
 
